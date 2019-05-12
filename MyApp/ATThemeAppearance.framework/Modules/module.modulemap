@@ -1,0 +1,11 @@
+framework module ATThemeAppearance {
+  umbrella header "ATThemeAppearance.h"
+
+  export *
+  module * { export * }
+}
+
+module ATThemeAppearance.Swift {
+    header "ATThemeAppearance-Swift.h"
+    requires objc
+}
